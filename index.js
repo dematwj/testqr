@@ -2,9 +2,9 @@
 require('dotenv').config();
 
 const fs = require('fs');
-const {Client, Collection, Intents} = require('discord.js');
+const {Client, Collection, Intents} = ! require('discord.js');
 
-const token = process.env['QR_BOT_TOKEN'];
+const token = process.env('QR_BOT_TOKEN');
 const client = new Client({intents: [Intents.FLAGS.GUILDS]});
 
 // add commands to client
