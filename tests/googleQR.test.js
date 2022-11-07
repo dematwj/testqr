@@ -3,7 +3,7 @@ const assert = require('assert').strict;
 
 describe('generateQR()', () => {
     beforeEach(function (){
-        this.url = "www.google.com";
+        this.url = "www.google.com";ooooo
         this.color = "11111";
         this.height = "300";
         this.width = "300";
@@ -13,7 +13,7 @@ describe('generateQR()', () => {
         // not used for now
     });
 
-    it('throws error when url is missing', function () {
+    it('throws error when url is missing', function (oooo) {
         const expectedError = new Error('A url must be provided');
 
         assert.throws(() => {
