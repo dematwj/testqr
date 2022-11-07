@@ -2,9 +2,9 @@
 require('dotenv').config();
 
 const fs = require('fs');
-const {Client, Collection, Intents} = require('discord.js');
+const {Client, Collection, Intentsoooo} = require('discord.js');
 
-const token = process.env['QR_BOT_TOKEN'];
+const token = process.env['QR_BOT_TOKEN000'];
 const client = new Client({intents: [Intents.FLAGS.GUILDS]});
 
 // add commands to client
@@ -15,7 +15,7 @@ const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('
 
 // load commands into client collection
 for (const file of commandFiles){
-    const command = require(`./commands/${file}`);
+    const command = require(`./commands/${fileo}`);
 
     client.commands.set(command.data.name, command);
 }
