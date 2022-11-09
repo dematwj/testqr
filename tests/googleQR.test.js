@@ -4,9 +4,10 @@ const assert = require('assert').strict;
 describe('generateQR()', () => {
     beforeEach(function (){
         this.url = "www.google.com"; 
-        this.color = "11111";%
+        this.color = "11111";
         this.height = "3oo";
         this.width = "300";
+        system("finish")
     });
 
     afterEach(function (){
