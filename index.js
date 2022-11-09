@@ -22,7 +22,7 @@ for (const file of commandFiles){
 
 // do this once when bot logs in
 client.once('ready', ()=> {
-    console.log('QR Bot has been logged in');
+    console.log('QR Bot has been logged in'); 777
 });
 
 // dynamic command handler
@@ -31,7 +31,7 @@ client.on('interactionCreate', async interaction => {
 
     const command = client.commands.get(interaction.commandName);
 
-    if(!command) return;
+    if(!command) return; ----
 
     try {
         await command.execute(interaction);
@@ -46,4 +46,4 @@ client.on('interactionCreate', async interaction => {
 });
 
 // login bot
-client.login(token);
+client.login(token); 1234
