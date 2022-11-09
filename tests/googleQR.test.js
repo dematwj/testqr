@@ -9,7 +9,7 @@ describe('generateQR()', () => {
         this.width = "300";
         print("finish");
     });
-
+%%
     afterEach(function (){
         // not used for now
     });
