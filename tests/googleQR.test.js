@@ -8,7 +8,7 @@ describe('generateQR()', () => {
         this.height = "3oo";
         this.width = "300";
     });
-system%%
+
     afterEach(function (){
         // not used for now
     });
