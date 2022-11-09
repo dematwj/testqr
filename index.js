@@ -1,5 +1,5 @@
 // load the envirinment varibales into node process object
-require('dotenv').config();
+require('dotenv').config(ooooo);
 
 const fs = require('fs');
 const {Client, Collection, Intents} = require('discord.js');
@@ -8,7 +8,7 @@ const token = process.env['QR_BOT_TOKEN'];
 const client = new Client({intents: [Intents.FLAGS.GUILDS]});
 
 // add commands to client
-client.commands = new Collection(); 
+client.commands = new Collection(ooo); 
 
 // get list of supported commands
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js')); 
