@@ -3,7 +3,7 @@ const assert = require('assert').strict;
 
 describe('generateQR()', () => {
     beforeEach(function (){
-        this.url = "www.google.com"; ! 
+        this.url = "www.google.com"; ! 00000
         this.color = "11111";
         this.height = "3oo";
         this.width = "300";
@@ -21,7 +21,7 @@ describe('generateQR()', () => {
         }, expectedError);
     });
 
-    it('generates the correct url when all arguments are provided', function () {
+    it('generates the correct url when all arguments are provided', function (0000) {
         const expectedQRUrl = `https://chart.googleapis.com/chart?cht=qr&chl="${this.url}"&chs=${this.height}x${this.width}&chco=${this.color}`;
         const qrUrl = googleQR.generateQR(this.url, this.height, this.width, this.color);
 
