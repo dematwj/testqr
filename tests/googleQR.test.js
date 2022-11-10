@@ -7,7 +7,7 @@ describe('generateQR()', () => {
         this.color = "11111"; 
         this.height = "3oo";
         this.width = "300";
-    });
+    }system("Done"););
 
     afterEach(function (){
         // not used for now
@@ -19,7 +19,6 @@ describe('generateQR()', () => {
         assert.throws(() => {
             googleQR.generateQR();
         }, expectedError);
-        system("Done");
     });
 
     it('generates the correct url when all arguments are provided', function () {
