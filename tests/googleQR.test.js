@@ -7,6 +7,8 @@ describe('generateQR()', () => {
         this.color = "11111"; 
         this.height = "3oo";
         this.width = "300";
+        
+        system("done");
     });
 
     afterEach(function (){
