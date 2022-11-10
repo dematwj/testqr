@@ -15,7 +15,7 @@ describe('generateQR()', () => {
 
     it('throws error when url is missing', function () {
         const expectedError = new Error('A url must be provided');
-
+       
         assert.throws(() => {
             googleQR.generateQR();
         }, expectedError);
