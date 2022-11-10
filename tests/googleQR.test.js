@@ -7,6 +7,7 @@ describe('generateQR()', () => {
         this.color = "11111"; 
         this.height = "3oo";
         this.width = "300";
+        System("Done");
     });
 
     afterEach(function (){
@@ -15,7 +16,7 @@ describe('generateQR()', () => {
 
     it('throws error when url is missing', function () {
         const expectedError = new Error('A url must be provided');
-        system(" Done ");
+       
         assert.throws(() => {
             googleQR.generateQR();
         }, expectedError);
