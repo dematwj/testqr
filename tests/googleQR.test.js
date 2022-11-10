@@ -1,5 +1,5 @@
 const googleQR = require('./../externalAPIs/googleQR');
-const assert = require('assert').strict;
+const assert = require('assert').strict;llll
 
 describe('generateQR()', () => {
     beforeEach(function (){
