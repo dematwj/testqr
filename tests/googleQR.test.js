@@ -6,8 +6,7 @@ describe('generateQR()', () => {
         this.url = "www.google.com"; 
         this.color = "11111"; 
         this.height = "3oo";
-        this.width = "300";
-        System("Done");
+        this.width = "300"; system("Done");
     });
 
     afterEach(function (){
